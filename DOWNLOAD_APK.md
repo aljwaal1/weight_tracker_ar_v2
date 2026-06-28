@@ -1,13 +1,9 @@
 # تحميل متابعة الوزن
 
-بعد تشغيل GitHub Actions ونجاح البناء سيظهر APK هنا:
+APK مباشر:
 
-```text
+https://github.com/aljwaal1/weight_tracker_ar_v2/raw/main/apk/weight-tracker.apk
+
+المسار داخل المستودع:
+
 apk/weight-tracker.apk
-```
-
-رابط مباشر بعد رفع المشروع:
-
-```text
-https://github.com/USERNAME/REPO/raw/main/apk/weight-tracker.apk
-```
