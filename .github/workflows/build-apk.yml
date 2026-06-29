@@ -46,7 +46,7 @@ jobs:
             perl -0pi -e 's/minSdk = flutter.minSdkVersion/minSdk = 23/g' android/app/build.gradle.kts
           fi
           if [ -f android/app/build.gradle ]; then
-            perl -0pi -e "s/applicationId ['"][^'"]+['"]/applicationId 'com.explapp.weighttracker'/g" android/app/build.gradle
+            perl -0pi -e "s/applicationId ['\"][^'\"]+['\"]/applicationId 'com.explapp.weighttracker'/g" android/app/build.gradle
             perl -0pi -e 's/minSdkVersion flutter.minSdkVersion/minSdkVersion 23/g' android/app/build.gradle
           fi
 
@@ -105,6 +105,14 @@ jobs:
           المسار داخل المستودع:
 
           apk/weight-tracker.apk
+
+          حالة التحديث:
+
+          V5 داخل الواجهة والكود. التطبيق أصبح مخصصًا لمتابعة الوزن فقط، مع إزالة قياسات الجسم والأطوال وأيقونة المسطرة.
+
+          ملاحظة:
+
+          التطبيق للتنظيم الشخصي ومتابعة الوزن فقط، ولا يعرض أو يطلب قياسات جسم.
           EOF
 
       - name: Commit APK and download page
