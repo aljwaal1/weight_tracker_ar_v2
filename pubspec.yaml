@@ -1,7 +1,7 @@
 name: weight_tracker_ar
-description: measurement tracker Android APK direct
+description: Arabic weight tracker Android APK direct
 publish_to: 'none'
-version: 4.0.0+4
+version: 5.0.0+5
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
